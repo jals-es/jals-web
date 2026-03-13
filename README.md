@@ -44,8 +44,7 @@ jals.es/
 ├── styles.css          # Estilos responsive
 ├── images/
 │   ├── icono.png       # Logo/favicon
-│   ├── 2.png           # Foto (mobile)
-│   └── 2 (2).png       # Foto (desktop)
+│   └── foto_jals.png   # Foto personal
 ├── jals-es.pen         # Archivo de diseño original (Pencil)
 └── README.md
 ```

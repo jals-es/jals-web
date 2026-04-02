@@ -45,42 +45,7 @@
   <!-- Lucide Icons -->
   <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
 
-  <!-- Critical CSS (above-the-fold) -->
-  <style>
-    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
-    html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased}
-    body{font-family:'Inter',system-ui,sans-serif;background:#0A0A0A;color:#FAFAFA;line-height:1.6}
-    a{color:inherit;text-decoration:none}
-    img{max-width:100%;height:auto;display:block}
-    .header{position:sticky;top:0;z-index:100;background:#0A0A0A;border-bottom:1px solid #1A1A1A}
-    .header-inner{display:flex;align-items:center;justify-content:space-between;padding:20px 80px;max-width:1440px;margin:0 auto}
-    .logo-wrap{display:flex;align-items:center;gap:12px}
-    .logo-icon{width:32px;height:32px;border-radius:6px}
-    .logo-text{font-family:'JetBrains Mono',monospace;font-size:18px;font-weight:700;letter-spacing:3px;color:#FAFAFA}
-    .nav{display:flex;align-items:center;gap:40px}
-    .nav-link{font-size:14px;font-weight:500;color:#9CA3AF;transition:color .2s}
-    .cta-btn{display:inline-flex;align-items:center;gap:8px;padding:10px 24px;background:#F5E642;color:#0A0A0A;border-radius:8px;font-size:14px;font-weight:600}
-    .mobile-menu-btn{display:none;background:none;border:none;color:#FAFAFA;cursor:pointer;padding:4px}
-    .mobile-nav{display:none}
-    .hero{overflow:hidden}
-    .hero-inner{display:flex;align-items:center;gap:80px;padding:100px 120px;max-width:1440px;margin:0 auto}
-    .hero-text{display:flex;flex-direction:column;gap:28px;max-width:600px}
-    .badge{display:inline-flex;align-items:center;gap:8px;padding:6px 16px;background:rgba(245,230,66,.13);border-radius:32px;width:fit-content}
-    .badge-dot{width:8px;height:8px;border-radius:50%;background:#F5E642}
-    .badge-text{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:600;letter-spacing:2px;color:#F5E642}
-    .hero-title{font-family:'Newsreader',serif;font-size:64px;font-weight:500;line-height:1.05;color:#FAFAFA}
-    .hero-sub{font-size:18px;color:#9CA3AF;line-height:1.6;max-width:520px}
-    .hero-ctas{display:flex;align-items:center;gap:16px}
-    .btn-primary{display:inline-flex;align-items:center;gap:10px;padding:16px 32px;background:#F5E642;color:#0A0A0A;border-radius:8px;font-size:16px;font-weight:600}
-    .btn-secondary{display:inline-flex;align-items:center;gap:10px;padding:16px 32px;border:1px solid #333;border-radius:8px;color:#FAFAFA;font-size:16px;font-weight:500}
-    .photo-container{flex-shrink:0;width:400px;height:480px;border-radius:16px;overflow:hidden;border:2px solid #1A1A1A}
-    .photo-container img{width:100%;height:100%;object-fit:cover}
-    @media(max-width:768px){.header-inner{padding:16px 24px}.nav,.header-cta{display:none}.mobile-menu-btn{display:block}.hero-inner{flex-direction:column;padding:48px 24px;gap:32px}.hero-title{font-size:40px}.photo-container{width:100%;height:400px}}
-  </style>
-  <!-- Full stylesheet (non-render-blocking) -->
-  <link rel="preload" as="style" href="styles.css">
-  <link rel="stylesheet" href="styles.css" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="styles.css"></noscript>
+  <link rel="stylesheet" href="styles.css">
 
   <!-- Schema.org JSON-LD -->
   <script type="application/ld+json">

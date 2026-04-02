@@ -28,8 +28,9 @@
   <meta name="twitter:image" content="https://jals.es/images/foto_jals.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="images/icono.png">
-  <link rel="apple-touch-icon" href="images/icono.png">
+  <link rel="icon" type="image/webp" href="images/icono.webp">
+  <link rel="icon" type="image/png" href="images/icono_64.png">
+  <link rel="apple-touch-icon" href="images/icono_64.png">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -130,7 +131,10 @@
   <header class="header" id="top">
     <div class="header-inner">
       <a href="#top" class="logo-wrap" aria-label="JALS - Inicio">
-        <img src="images/icono.png" alt="JALS logo" class="logo-icon" width="32" height="32">
+        <picture>
+          <source srcset="images/icono.webp" type="image/webp">
+          <img src="images/icono_64.png" alt="JALS logo" class="logo-icon" width="32" height="32">
+        </picture>
         <span class="logo-text">JALS</span>
       </a>
       <nav class="nav" aria-label="Navegación principal">
@@ -183,7 +187,10 @@
           </div>
         </div>
         <div class="photo-container">
-          <img src="images/foto_jals.png" alt="Juan Antonio López Seguí — Desarrollador web y especialista en IA en Ontinyent, Valencia" width="400" height="480" loading="eager">
+          <picture>
+            <source srcset="images/foto_jals.webp" type="image/webp">
+            <img src="images/foto_jals.png" alt="Juan Antonio López Seguí — Programador web y especialista en IA en Ontinyent, Valencia" width="400" height="480" loading="eager">
+          </picture>
         </div>
       </div>
     </section>
@@ -448,7 +455,10 @@
   <footer class="footer">
     <div class="footer-inner">
       <div class="footer-left">
-        <img src="images/icono.png" alt="JALS" class="footer-logo" width="24" height="24">
+        <picture>
+          <source srcset="images/icono.webp" type="image/webp">
+          <img src="images/icono_64.png" alt="JALS" class="footer-logo" width="24" height="24">
+        </picture>
         <span class="footer-name">JALS</span>
         <span class="footer-dot">&middot;</span>
         <span class="footer-copy">&copy; 2026 Juan Antonio López Seguí</span>

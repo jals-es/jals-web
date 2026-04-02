@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://jals.es/sitemap.xml
+Sitemap: https://www.jals.es/sitemap.xml

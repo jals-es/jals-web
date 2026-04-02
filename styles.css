@@ -56,7 +56,7 @@ img {
 
 .section-desc {
   font-size: 16px;
-  color: #888;
+  color: #9CA3AF;
   line-height: 1.6;
   max-width: 600px;
 }
@@ -119,7 +119,7 @@ img {
 .nav-link {
   font-size: 14px;
   font-weight: 500;
-  color: #888;
+  color: #9CA3AF;
   transition: color 0.2s;
 }
 
@@ -239,7 +239,7 @@ img {
 
 .hero-sub {
   font-size: 18px;
-  color: #888;
+  color: #9CA3AF;
   line-height: 1.6;
   max-width: 520px;
 }
@@ -356,7 +356,7 @@ img {
 
 .about-text p {
   font-size: 16px;
-  color: #888;
+  color: #9CA3AF;
   line-height: 1.7;
 }
 
@@ -382,7 +382,7 @@ img {
 
 .stat-label {
   font-size: 14px;
-  color: #666;
+  color: #8B8B8B;
 }
 
 /* ========================
@@ -448,7 +448,7 @@ img {
 
 .service-desc {
   font-size: 14px;
-  color: #888;
+  color: #9CA3AF;
   line-height: 1.6;
 }
 
@@ -518,7 +518,7 @@ img {
   font-size: 11px;
   font-weight: 600;
   letter-spacing: 2px;
-  color: #666;
+  color: #8B8B8B;
 }
 
 .skill-col-label-yellow {
@@ -588,7 +588,7 @@ img {
   display: flex;
   align-items: center;
   gap: 8px;
-  color: #888;
+  color: #9CA3AF;
   font-size: 14px;
   font-weight: 500;
   transition: color 0.2s;
@@ -706,7 +706,7 @@ img {
 
 .project-desc {
   font-size: 14px;
-  color: #888;
+  color: #9CA3AF;
   line-height: 1.5;
 }
 
@@ -760,7 +760,7 @@ img {
 
 .cta-sub {
   font-size: 18px;
-  color: #888;
+  color: #9CA3AF;
   line-height: 1.6;
   max-width: 600px;
 }
@@ -804,7 +804,7 @@ img {
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 2px;
-  color: #666;
+  color: #8B8B8B;
 }
 
 .footer-dot {
@@ -813,7 +813,7 @@ img {
 
 .footer-copy {
   font-size: 13px;
-  color: #444;
+  color: #8B8B8B;
 }
 
 .footer-social {
@@ -823,7 +823,7 @@ img {
 }
 
 .footer-social a {
-  color: #666;
+  color: #8B8B8B;
   transition: color 0.2s;
 }
 

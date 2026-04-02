@@ -309,9 +309,11 @@ img {
   flex-shrink: 0;
   width: 400px;
   height: 480px;
+  aspect-ratio: 400 / 480;
   border-radius: 16px;
   overflow: hidden;
   border: 2px solid #1A1A1A;
+  contain: layout style paint;
 }
 
 .photo-container img {
